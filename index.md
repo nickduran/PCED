@@ -14,4 +14,6 @@ This is the main page of the tutorial.
 - [Lesson 2](lesson2.md)
 - [flowchart](flowchart.html)
 - [Edge Cases](PCED_Edge_Cases_Guide.md)
+- [pced-coding-guide-1](pced-coding-guide-1.md)
+
 
