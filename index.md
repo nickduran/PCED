@@ -17,6 +17,7 @@ This is the main page of the tutorial.
 - [PCED-example-table.md](PCED_Example_Table.md)
 - [flowchart](flowchart.html)
 - [pced-coding-guide-1](pced-coding-guide-1.md)
+- [KEY REFERENCES SUPPORTING RUBRIC](PCED_References.md)
 
 
 
