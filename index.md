@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="assets/style.css">
-
 # Welcome to the Tutorial
 
 This is the main page of the tutorial.
