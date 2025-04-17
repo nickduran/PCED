@@ -17,6 +17,8 @@ This is the main page of the tutorial.
 - [Edge Cases](PCED_Edge_Cases_Guide.md)
 - [pced-coding-guide-1](pced-coding-guide-1.md)
 - [pced-coding-form-integrated](pced-coding-form-integrated.md)
+- [integrated-pced-coding-guide](integrated-pced-coding-guide.md)
+
 
 
 
