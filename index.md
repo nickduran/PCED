@@ -10,19 +10,13 @@ This is the main page of the tutorial.
 
 ## Lessons
 
-- [Lesson 1](lesson1.md)
-- [Lesson 2](lesson2.md)
-- [flowchart](flowchart.html)
 - [flowchart-2](flowchart-2.html)
-- [Edge Cases](PCED_Edge_Cases_Guide.md)
-- [pced-coding-guide-1](pced-coding-guide-1.md)
-- [pced-coding-form-integrated](pced-coding-form-integrated.md)
 - [integrated-pced-coding-guide](integrated-pced-coding-guide.md)
+- [pced-coding-form-integrated](pced-coding-form-integrated.md)
+- [Edge Cases](PCED_Edge_Cases_Guide.md)
 - [PCED-example-table.md](PCED_Example_Table.md)
-
-
-
-
+- [flowchart](flowchart.html)
+- [pced-coding-guide-1](pced-coding-guide-1.md)
 
 
 
