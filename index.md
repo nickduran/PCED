@@ -13,3 +13,5 @@ This is the main page of the tutorial.
 - [Lesson 1](lesson1.md)
 - [Lesson 2](lesson2.md)
 - [flowchart](flowchart.html)
+- [Edge Cases](PCED_Edge_Cases_Guide.md)
+
