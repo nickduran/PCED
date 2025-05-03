@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Integrated PCED Coding Guide for Secure Messages
+title: PCED Coding Guide for Secure Messages
 ---
 
-# Integrated PCED Coding Guide for Secure Messages
+# PCED Coding Guide for Secure Messages
 
 ## Overview
-This guide provides instructions for identifying Potential Collaborative Effectiveness Deliberations (PCED) in physician-patient secure messages. PCEDs are interactions where physician and patient engage in deliberative communication about two or more viable clinical options with the potential for collaboration in decision-making.
+This guide provides instructions for identifying Potential Comparative Effectiveness Deliberations (PCED) in physician-patient secure messages. PCEDs are interactions where physician and patient engage in deliberative communication about two or more viable clinical options with the potential for collaboration in decision-making.
 
 ## Primary Decision Rule
 
