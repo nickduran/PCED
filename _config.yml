@@ -12,7 +12,7 @@ highlighter: rouge
 # Permalinks
 permalink: /:title/
 
-# Layouts
+# Important: This ensures URLs don't require .html extension
 defaults:
   -
     scope:
@@ -39,6 +39,10 @@ exclude:
 github:
   is_project_page: true
   repository_url: https://github.com/nickduran/PCED
+
+# URL settings - add or modify these to match your setup
+baseurl: "/PCED" # the subpath of your site - usually your repository name
+url: "https://nickduran.github.io" # the base hostname & protocol for your site
 
 # Assets
 sass:
