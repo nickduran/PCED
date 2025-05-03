@@ -1,4 +1,45 @@
-theme: minima
-title: PCED Coding 
+title: PCED Coding
+description: Prompted Computational Essay Development Coding Resources and Tutorials
+theme: jekyll-theme-slate
+
+# Custom settings
+show_downloads: false
+
+# Build settings
 markdown: kramdown
-header_pages: []
+highlighter: rouge
+
+# Permalinks
+permalink: /:title/
+
+# Layouts
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Collections
+collections:
+  lessons:
+    output: true
+    permalink: /:collection/:name/
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Custom variables
+github:
+  is_project_page: true
+  repository_url: https://github.com/nickduran/PCED
+
+# Assets
+sass:
+  style: compressed
