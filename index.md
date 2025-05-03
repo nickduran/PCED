@@ -5,17 +5,11 @@ title: Welcome to the Tutorial
 
 # Welcome to the Tutorial
 
-This is the main page of the tutorial. Here you'll find resources for learning about Potential Comparative Effectiveness Deliberations (PCED) Coding and how to apply it effectively in your projects.
-
-## Getting Started
-
-PCED Coding provides a structured approach to developing computational essays through prompted methods. Begin with Lesson 1 to understand the basic concepts and workflow.
-
-[Start with Lesson 1]({{ '/pced-coding-guide-1' | relative_url }}){: .btn}
+This is the main page of the tutorial. Here you'll find resources for implementing Potential Comparative Effectiveness Deliberations (PCED) coding in secure messages. 
 
 ## Tutorial Structure
 
-This tutorial is organized into lessons, supplements, and reference materials to help you master PCED Coding at your own pace.
+This tutorial is organized into lessons, supplements, and reference materials to help you master PCED Coding.
 
 ## Lessons
 
