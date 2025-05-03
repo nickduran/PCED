@@ -1,3 +1,8 @@
+---
+layout: default
+title: References
+---
+
 # References 
 
 - Elwyn G, et al. Shared Decision Making: A Model for Clinical Practice. *J Gen Intern Med*. 2012;27(10):1361-1367.

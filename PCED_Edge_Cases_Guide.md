@@ -1,3 +1,8 @@
+---
+layout: default
+title: Common Edge Cases and How to Handle Them
+---
+
 # Supplement: Common Edge Cases and How to Handle Them
 
 This supplement is designed to accompany the PCED Coding Manual and support annotators in resolving common ambiguities.

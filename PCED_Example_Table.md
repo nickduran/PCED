@@ -1,3 +1,8 @@
+---
+layout: default
+title: PCED Gold Standard Annotation Examples
+---
+
 # PCED Gold Standard Annotation Examples
 
 | Message ID | Message Text | PCED | Facets | Rationale |

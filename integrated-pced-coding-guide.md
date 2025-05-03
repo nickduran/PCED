@@ -1,3 +1,8 @@
+---
+layout: default
+title: Integrated PCED Coding Guide for Secure Messages
+---
+
 # Integrated PCED Coding Guide for Secure Messages
 
 ## Overview
