@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}PCED Coding</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>PCED Coding</h1>
+    </div>
+  </header>
+  
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="{{ '/index.html' | relative_url }}" {% if page.url == '/' or page.url == '/index.html' %}class="active"{% endif %}>Welcome to the Tutorial</a></li>
+        <li><a href="{{ '/pced-coding-guide-1.html' | relative_url }}" {% if page.url == '/pced-coding-guide-1.html' %}class="active"{% endif %}>Lesson 1</a></li>
+        <li><a href="{{ '/PCED_Edge_Cases_Guide.html' | relative_url }}" {% if page.url == '/PCED_Edge_Cases_Guide.html' %}class="active"{% endif %}>Common Edge Cases</a></li>
+        <li><a href="{{ '/PCED_Example_Table.html' | relative_url }}" {% if page.url == '/PCED_Example_Table.html' %}class="active"{% endif %}>Example Table</a></li>
+        <li><a href="{{ '/PCED_References.html' | relative_url }}" {% if page.url == '/PCED_References.html' %}class="active"{% endif %}>References</a></li>
+        <li><a href="{{ '/integrated-pced-coding-guide.html' | relative_url }}" {% if page.url == '/integrated-pced-coding-guide.html' %}class="active"{% endif %}>Integrated Guide</a></li>
+        <li><a href="{{ '/pced-coding-form-integrated.html' | relative_url }}" {% if page.url == '/pced-coding-form-integrated.html' %}class="active"{% endif %}>Coding Form</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <main class="container">
+    <section class="content-section">
+      {{ content }}
+    </section>
+  </main>
+  
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 PCED Coding. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>
