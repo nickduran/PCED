@@ -17,13 +17,14 @@
   <nav>
     <div class="container">
       <ul>
-        <li><a href="{{ '/index.html' | relative_url }}" {% if page.url == '/' or page.url == '/index.html' %}class="active"{% endif %}>Welcome to the Tutorial</a></li>
-        <li><a href="{{ '/pced-coding-guide-1.html' | relative_url }}" {% if page.url == '/pced-coding-guide-1.html' %}class="active"{% endif %}>Lesson 1</a></li>
-        <li><a href="{{ '/PCED_Edge_Cases_Guide.html' | relative_url }}" {% if page.url == '/PCED_Edge_Cases_Guide.html' %}class="active"{% endif %}>Common Edge Cases</a></li>
-        <li><a href="{{ '/PCED_Example_Table.html' | relative_url }}" {% if page.url == '/PCED_Example_Table.html' %}class="active"{% endif %}>Example Table</a></li>
-        <li><a href="{{ '/PCED_References.html' | relative_url }}" {% if page.url == '/PCED_References.html' %}class="active"{% endif %}>References</a></li>
-        <li><a href="{{ '/integrated-pced-coding-guide.html' | relative_url }}" {% if page.url == '/integrated-pced-coding-guide.html' %}class="active"{% endif %}>Integrated Guide</a></li>
-        <li><a href="{{ '/pced-coding-form-integrated.html' | relative_url }}" {% if page.url == '/pced-coding-form-integrated.html' %}class="active"{% endif %}>Coding Form</a></li>
+        <!-- Use the exact filenames as they appear in your repository -->
+        <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' or page.url == '/index.html' %}class="active"{% endif %}>Welcome to the Tutorial</a></li>
+        <li><a href="{{ '/pced-coding-guide-1' | relative_url }}" {% if page.url == '/pced-coding-guide-1' or page.url == '/pced-coding-guide-1.html' %}class="active"{% endif %}>Lesson 1</a></li>
+        <li><a href="{{ '/PCED_Edge_Cases_Guide' | relative_url }}" {% if page.url == '/PCED_Edge_Cases_Guide' or page.url == '/PCED_Edge_Cases_Guide.html' %}class="active"{% endif %}>Common Edge Cases</a></li>
+        <li><a href="{{ '/PCED_Example_Table' | relative_url }}" {% if page.url == '/PCED_Example_Table' or page.url == '/PCED_Example_Table.html' %}class="active"{% endif %}>Example Table</a></li>
+        <li><a href="{{ '/PCED_References' | relative_url }}" {% if page.url == '/PCED_References' or page.url == '/PCED_References.html' %}class="active"{% endif %}>References</a></li>
+        <li><a href="{{ '/integrated-pced-coding-guide' | relative_url }}" {% if page.url == '/integrated-pced-coding-guide' or page.url == '/integrated-pced-coding-guide.html' %}class="active"{% endif %}>Integrated Guide</a></li>
+        <li><a href="{{ '/pced-coding-form-integrated' | relative_url }}" {% if page.url == '/pced-coding-form-integrated' or page.url == '/pced-coding-form-integrated.html' %}class="active"{% endif %}>Coding Form</a></li>
       </ul>
     </div>
   </nav>
