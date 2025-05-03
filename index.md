@@ -22,8 +22,8 @@ This tutorial is organized into lessons, supplements, and reference materials to
 Here are the available lessons and resources:
 
 {: .lessons-list}
-- [pced-coding-guide]({{ '/pced-coding-guide' | relative_url }}) - Comprehensive guide to PCED implementation
-- [pced_edge_cases_guide]({{ '/pced_edge_cases_guide' | relative_url }}) - How to handle common exceptions and edge scenarios
-- [pced-coding-form-integrated]({{ '/pced-coding-form-integrated' | relative_url }}) - Template for coding
-- [pced_example_table]({{ '/pced_example_table' | relative_url }}) - Examples table for reference
+- [PCED CODING GUIDE]({{ '/pced-coding-guide' | relative_url }}) - Comprehensive guide to PCED implementation
+- [EDGE CASE GUIDE]({{ '/pced_edge_cases_guide' | relative_url }}) - How to handle common exceptions and edge scenarios
+- [PCED CODING TEMPLATE AND FORM]({{ '/pced-coding-form-integrated' | relative_url }}) - Template and form for coding
+- [EXAMPLE TABLE]({{ '/pced_example_table' | relative_url }}) - Examples table for reference
 - [KEY REFERENCES SUPPORTING RUBRIC]({{ '/pced_references' | relative_url }}) - Important reference materials
