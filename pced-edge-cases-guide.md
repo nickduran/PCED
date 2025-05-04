@@ -128,16 +128,3 @@ If resistance is voiced without proposing or requesting an alternative, **code a
 
 ---
 
-## Decision Tree Snippet
-
-```text
-1. Is there more than one option explicitly or implicitly present?
-   → YES → PCED = YES
-   → NO →
-      2. Is there a preference, constraint, or value expressed that could affect treatment choice?
-         → YES → PCED = YES
-         → NO →
-            3. Is a decision point clearly marked?
-               → YES → PCED = YES
-               → NO → PCED = NO
-```
