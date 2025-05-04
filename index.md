@@ -20,4 +20,4 @@ Here are the available lessons and resources:
 - [EDGE CASE GUIDE]({{ '/pced_edge_cases_guide' | relative_url }}) - How to handle common exceptions and edge scenarios
 - [PCED CODING TEMPLATE AND FORM]({{ '/pced-coding-form-integrated' | relative_url }}) - Template and form for coding
 - [EXAMPLE TABLE]({{ '/pced_example_table' | relative_url }}) - Examples table for reference
-- [KEY REFERENCES SUPPORTING RUBRIC]({{ '/pced_references' | relative_url }}) - Important reference materials
+- [KEY REFERENCES SUPPORTING RUBRIC]({{ '/pced-references' | relative_url }}) - Important reference materials
