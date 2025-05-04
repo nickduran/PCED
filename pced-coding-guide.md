@@ -168,5 +168,5 @@ In addition to the binary PCED determination, each message can be annotated with
 This flowchart provides a visual representation of the PCED coding decision process:
 
 <div class="flowchart">
-    <img src="{{ '/figures/flowchart-2.svg' | relative_url }}" alt="PCED Coding Decision Flowchart" width="100%">
+    <img src="{{ '/figures/pced-flowchart.svg' | relative_url }}" alt="PCED Coding Decision Flowchart" width="100%">
 </div>
