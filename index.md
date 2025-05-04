@@ -5,7 +5,7 @@ title: Welcome to the Tutorial
 
 # Welcome to the Tutorial
 
-This is the main page of the tutorial. Here you'll find resources for implementing Potential Comparative Effectiveness Deliberations (PCED) coding in secure messages. 
+Here you'll find resources for implementing Potential Comparative Effectiveness Deliberations (PCED) coding in secure messages. 
 
 ## Tutorial Structure
 
