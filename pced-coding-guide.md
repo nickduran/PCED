@@ -41,6 +41,11 @@ A message contains PCED if it meets **BOTH** of the following criteria:
 >
 > "I'm not sure what to do next with your blood pressure medication. We need to make a decision about this."
 
+**Supportive References:**
+- Elwyn et al. (2012) – *Shared Decision Making: A Model for Clinical Practice*
+- Elwyn et al. (2014) – *Collaborative Deliberation*
+- Braddock et al. (1999) – *Informed Decision Making*
+
 ### 2. Information Exchange About Options
 *Sharing factual information about the different choices available*
 
@@ -54,6 +59,11 @@ A message contains PCED if it meets **BOTH** of the following criteria:
 > "The oral antibiotic would likely clear this up faster, but might cause stomach upset. The topical cream would be gentler but takes longer to work and you'd need to apply it 3x daily."
 > 
 > "I tried the nasal spray you suggested, but it caused severe dryness. What differences should I expect with the pill option?"
+
+**Supportive References:**
+- Elwyn et al. (2013) – *Observer OPTION-5*
+- Hayat et al. (2020) – *Understanding patient–provider email communication*
+- Weiss & Peters (2008) – *OPTION vs Informed Decision Making instruments*
 
 ### 3. Preference Expression and Elicitation
 *Communication about personal values and priorities related to options*
@@ -71,6 +81,11 @@ A message contains PCED if it meets **BOTH** of the following criteria:
 >
 > "Given your concerns about cost, the generic version might be a better fit for you."
 
+**Supportive References:**
+- Elwyn et al. (2014) – *Collaborative Deliberation*
+- Elwyn et al. (2013) – *Observer OPTION-5*
+- Lewis (2019) – *Relational Autonomy*
+
 ### 4. Tradeoffs or Comparisons Articulation
 *Explicit discussion of pros/cons or comparing relative benefits/drawbacks across options*
 
@@ -84,6 +99,12 @@ A message contains PCED if it meets **BOTH** of the following criteria:
 > "Warfarin requires more frequent monitoring but has a longer track record, while the newer medication requires less monitoring but has less long-term data on outcomes."
 >
 > "Physical therapy will take longer but avoid surgical risks, while surgery might provide quicker relief but involves recovery time."
+
+**Supportive References:**
+- Braddock et al. (1999) – *Informed Decision Making*
+- Elwyn et al. (2014) – *Collaborative Deliberation*
+- Moyer et al. (2004) – *Content analysis of patient–provider email communication*
+
 
 ### 5. Collaborative Deliberation or Negotiation
 *Indications that options are being actively weighed together or that input is being integrated*
@@ -100,6 +121,11 @@ A message contains PCED if it meets **BOTH** of the following criteria:
 > "I'm weighing the trade-offs between these medications and would value your input on which direction to go."
 >
 > "I understand your preference for avoiding surgery, so let's try the conservative approach first and reassess in a month."
+
+**Supportive References:**
+- Elwyn et al. (2014) – *Collaborative Deliberation*
+- Jarad Fodeh et al. (2023) – *Identifying patient-centered communication in secure messages*
+- Bunt & Petukhova (2020) – *Annotation using ISO 24617-2 and RIAS*
 
 ## Multi-Facet Annotation System
 
