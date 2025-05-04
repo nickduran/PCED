@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome to the Tutorial
+title: Welcome
 ---
 
 # Welcome to the Tutorial

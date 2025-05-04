@@ -162,3 +162,11 @@ In addition to the binary PCED determination, each message can be annotated with
 > "I'm not sure what to do about my knee pain. The Aleve helps some but not enough, and I'm concerned about taking it every day. Would physical therapy be better to try before considering cortisone shots? I'm trying to avoid surgery if possible."
 
 *Analysis: Decision point is marked (uncertainty), multiple options mentioned (Aleve, PT, cortisone, surgery), and preferences expressed (avoiding surgery). Present facets: F1, F2, F3*
+
+## PCED Decision Flowchart
+
+This flowchart provides a visual representation of the PCED coding decision process:
+
+<div class="flowchart">
+    <img src="{{ '/figures/flowchart-2.svg' | relative_url }}" alt="PCED Coding Decision Flowchart" width="100%">
+</div>
