@@ -1,0 +1,74 @@
+# -----------------------------
+# macOS system files
+# -----------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon file on directories
+Icon?
+
+# Thumbnails and metadata
+._*
+.Spotlight-V100
+.Trashes
+
+# macOS volume/mount info
+.VolumeIcon.icns
+.fseventsd
+
+# Time Machine
+.Backup*
+.TemporaryItems
+
+# iCloud / file provider artifacts
+.localized
+
+# -----------------------------
+# Finder and editor temp files
+# -----------------------------
+*.swp
+*.swo
+*~
+.~lock.*   # LibreOffice lock files
+
+# -----------------------------
+# R / RStudio
+# -----------------------------
+.Rhistory
+.Rapp.history
+.RData
+.Rproj.user/
+*.Rproj
+
+# -----------------------------
+# Node / Yarn (if present)
+# -----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# -----------------------------
+# Python (if present)
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# Git / VCS noise (safety)
+# -----------------------------
+*.orig
+*.rej
