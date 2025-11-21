@@ -9,13 +9,12 @@
 
 ## Decision Table
 
-| Code | Requests guidance on treatment? | Mentions specific options? | Asks about alternatives OR dissatisfaction? | Names 2+ specific options? | Explicitly requests comparison? | Example |
-|------|------|------|------|------|------|----------|
-| **P0** | **NO** | — | — | — | — | "Thanks for calling in the refill. I really appreciate it." / "Just wanted to let you know I'm taking the medication exactly as prescribed and feeling better." |
-| **P1** | **YES** | **NO** | **NO** | — | — | "I've been having stomach pain for three days. What should I do?" / "My knee is bothering me. Can I try ibuprofen for this?" / "Should I keep taking the antibiotic even though I feel better?" |
-| **P2** | **YES** | **NO** | **YES** | — | — | "I've been using the Aleve for two weeks but it only helps a little. What else can I try?" / "I'm not sure if this rash is from allergies or something else. What are your thoughts?" / "The current treatment isn't working well. Are there better options?" |
-| **P3** | **YES** | **YES** | — | **YES** | **NO** | "My knee pain isn't improving. Should I continue with physical therapy or consider getting the cortisone injection you mentioned?" / "I'm trying to decide between the cream you prescribed or going straight to the oral medication. What do you think?" |
-| **P4** | **YES** | **YES** | — | **YES** | **YES** | "Can you help me understand the pros and cons of the two diabetes medications we discussed?" / "What are the tradeoffs between continuing physical therapy versus having the surgery?" / "Which medication would work better for my situation - the one with fewer side effects or the one that's more effective?" |
+| Code | Requests guidance on treatment? | Mentions treatment(s)? | How are treatments framed? | Example |
+|------|------|------|------|----------|
+| **P0** | **NO** | Any | — | "Thanks for calling in the refill." / "I picked up the prescription today." / "I'm taking the Aleve you recommended and it's working great!" |
+| **P1** | **YES** | **NO** (0 treatments mentioned) | — | "I've been having stomach pain for three days. What should I do?" / "My knee is really bothering me. Can you help?" / "I'm not sure if this is allergies or an infection. What are your thoughts?" |
+| **P2** | **YES** | **YES** (1+ treatments mentioned) | As **context/background** (current meds, what they've tried) | "I'm on Aleve but it's not helping. What else can I try?" / "I've tried Tylenol and it didn't work. What should I do?" / "I'm on steroids and Aleve, but can I try Ibuprofen?" |
+| **P3** | **YES** | **YES** (1+ treatments mentioned) | As **alternatives/choices** to compare or choose between | "Should I continue physical therapy or get the cortisone injection?" / "What are the pros and cons of Aleve versus Ibuprofen?" / "I heard infrared light treatment is best, but what are the alternatives?" / "Which would work better - the cream or the pills?" |
 
 #### Note 
 - **Key:** Focus on treatment/management options. Speculation about causes is fine at any level but doesn't affect coding. If multiple patient messages exist, code the **strongest** opportunity present. See [Coding Examples](examples) if you would like additional clarification.  
