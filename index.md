@@ -9,8 +9,8 @@ This guide provides instructions for coding **patient-provider exchanges** for P
 ## Core Rationale
 This coding approach requires understanding patient-provider exchanges as **potentialities or opportunities for and enactment of compartive effectiveness deliberations.** Patients can create possibilities (whether intentional or not) for providers to engage in comparative effectiveness reasoning **about treatment/management options**, but only providers can actually deliver comparative effectiveness explanations about options. This coding approach assumes that the patient-initiated potentialities can vary in strength and that provider responses can vary in quality of engagement. 
 Therefore, we code:  
-1. **Patient opportunity creation** (strength of potential)
-2. **Provider engagement** (whether and how they respond)
+1. **Patient opportunity creation** (strength of potential). See the [Stage 1 Patient Coding Instructions](stage-1-patient-coding).
+2. **Provider engagement** (whether and how they respond). See the [Stage 2 Provider Coding Instructions](stage-2-provider-coding-context).
 
 ## BASIC PROCEDURE
 
@@ -18,8 +18,8 @@ Therefore, we code:
 - Identify the **entire thread** and be clear which messages in the thread are from provider and which are from the patient (typically 2-6 messages)
 
 #### Step 2: Code Patient Language (**STAGE 1**)
-Ask: "What opportunity, if any, does the patient create (whether intentional or not) for the provider to engage in comparative effectiveness deliberation **about treatment/management options**?" There are 5 possible codes (P0-P4) that you will select from a dropdown menu in the spreadsheet. 
-- For explanation of each code, see the [Stage 1 Patient Coding Instructions](stage-1-patient-coding)
+Ask: "What opportunity, if any, does the patient create (whether intentional or not) for the provider to engage in comparative effectiveness deliberation **about treatment/management options**?" 
+- There are 5 possible codes (P0-P4) that you will select from a dropdown menu in the spreadsheet. For explanation of each code, see the [Stage 1 Patient Coding Instructions](stage-1-patient-coding)
 
 <!-- - **P0**: No request for guidance on treatment
 - **P1**: General help-seeking without specifics
@@ -28,8 +28,8 @@ Ask: "What opportunity, if any, does the patient create (whether intentional or 
 - **P4**: Explicitly requests comparison or tradeoffs -->
 
 #### Step 3: Code Provider Language (**STAGE 2**)
-Ask: "How does the provider respond?" There are 5 possible codes (R0-R4) that you will select from a dropdown menu in the spreadsheet. 
-- For explanation of each code, see the [Stage 2 Provider Coding Instructions](stage-2-provider-coding-context).
+Ask: "How does the provider respond?" 
+- There are 5 possible codes (R0-R4) that you will select from a dropdown menu in the spreadsheet. For explanation of each code, see the [Stage 2 Provider Coding Instructions](stage-2-provider-coding-context).
 
 <!-- - **R0**: No clinical engagement (acknowledgment/deferral only)
 - **R1**: Discusses multiple causes but no treatment options
