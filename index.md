@@ -7,7 +7,7 @@ title: Welcome
 This guide provides instructions for coding **patient-provider exchanges** for Potential Comparative Effectiveness Deliberations (PCED). 
 
 ## Core Rationale
-This coding approach requires understanding patient-provider exchanges as **potentialities or opportunities for and enactment of compartive effectiveness deliberations** Patients can create possibilities (whether intentional or not) for providers to engage in comparative effectiveness reasoning **about treatment/management options**, but only providers can actually deliver comparative effectiveness explanations about treatment options. This coding approach assumes that the patient-initiated potentialities can vary in strength and that provider responses can vary in quality of engagement. 
+This coding approach requires understanding patient-provider exchanges as **potentialities or opportunities for and enactment of compartive effectiveness deliberations.** Patients can create possibilities (whether intentional or not) for providers to engage in comparative effectiveness reasoning **about treatment/management options**, but only providers can actually deliver comparative effectiveness explanations about options. This coding approach assumes that the patient-initiated potentialities can vary in strength and that provider responses can vary in quality of engagement. 
 Therefore, we code:  
 1. **Patient opportunity creation** (strength of potential)
 2. **Provider engagement** (whether and how they respond)
@@ -15,13 +15,11 @@ Therefore, we code:
 ## BASIC PROCEDURE
 
 #### Step 1: Identify the Exchange Unit
-- Identify the **entire thread** or meaningful exchange segment (typically 2-6 messages)
+- Identify the **entire thread** and be clear which messages in the thread are from provider and which are from the patient (typically 2-6 messages)
 
-#### Step 2: **STAGE 1** Code Patient Language 
-Ask: "What opportunity, if any, does the patient create (whether intentional or not) for the provider to engage in comparative effectiveness deliberation **about treatment/management options**?"
-- Focus on treatment/management, not purely diagnostic speculation
-
-There are 5 possible codes (P0-P4) that you will select from a dropdown menu in the spreadsheet. For explanation of each code, see the [Stage 1 Patient Coding Instructions](stage-1-patient-coding). 
+#### Step 2: Code Patient Language (**STAGE 1**)
+Ask: "What opportunity, if any, does the patient create (whether intentional or not) for the provider to engage in comparative effectiveness deliberation **about treatment/management options**?" There are 5 possible codes (P0-P4) that you will select from a dropdown menu in the spreadsheet. 
+- For explanation of each code, see the [Stage 1 Patient Coding Instructions](stage-1-patient-coding)
 
 <!-- - **P0**: No request for guidance on treatment
 - **P1**: General help-seeking without specifics
@@ -29,10 +27,9 @@ There are 5 possible codes (P0-P4) that you will select from a dropdown menu in 
 - **P3**: Names 2+ specific treatments patient is considering
 - **P4**: Explicitly requests comparison or tradeoffs -->
 
-#### Step 3: **STAGE 2** Code Provider Response 
-Ask: "How does the provider respond?"
-
-There are 5 possible codes (R0-R4) that you will select from a dropdown menu in the spreadsheet. For explanation of each code, see the [Stage 2 Provider Coding Instructions](stage-2-provider-coding-context).
+#### Step 3: Code Provider Language (**STAGE 2**)
+Ask: "How does the provider respond?" There are 5 possible codes (R0-R4) that you will select from a dropdown menu in the spreadsheet. 
+- For explanation of each code, see the [Stage 2 Provider Coding Instructions](stage-2-provider-coding-context).
 
 <!-- - **R0**: No clinical engagement (acknowledgment/deferral only)
 - **R1**: Discusses multiple causes but no treatment options
@@ -54,7 +51,7 @@ When starting to code, you should have a copy of the cheatsheet visibile as a re
 ```
 START
   ↓
-Read entire thread
+Identify thread and provider/patient messages
   ↓
 ═══════════════════════════════════════════════════
 STAGE 1: Patient Opportunity Assessment
