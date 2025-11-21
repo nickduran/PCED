@@ -17,7 +17,7 @@
 | **P3** | **YES** | **YES** (1+ treatments mentioned) | As **alternatives/choices** to compare or choose between | "Should I continue physical therapy or get the cortisone injection?" / "What are the pros and cons of Aleve versus Ibuprofen?" / "I heard infrared light treatment is best, but what are the alternatives?" / "Which would work better - the cream or the pills?" |
 
 #### Note 
-- **Key:** Focus on treatment/management options. Speculation about causes is fine at any level but doesn't affect coding. If multiple patient messages exist, code the **strongest** opportunity present. See [Coding Examples](examples) if you would like additional clarification.  
+- **Key:** Focus on treatment/management options. Speculation about causes is fine at any level but doesn't affect coding. See [Coding Examples](examples) if you would like additional clarification.  
 
 ---
 
