@@ -25,5 +25,10 @@
 This flowchart provides a visual representation of the PCED coding decision process:
 
 <div class="flowchart">
-    <img src="{{ '/figures/patient_flowchart.html' | relative_url }}" alt="PCED Patient Decision Flowchart" width="100%">
+    <iframe src="{{ '/figures/patient_flowchart.html' | relative_url }}" 
+            width="100%" 
+            height="1000px" 
+            frameborder="0" 
+            title="PCED Patient Decision Flowchart">
+    </iframe>
 </div>

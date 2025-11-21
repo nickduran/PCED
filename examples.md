@@ -60,13 +60,4 @@
 
 ---
 
-## KEY REMINDERS
-
-- **Focus on treatment/management options**
-- **Code individual messages but think about the messages in context of the entire thread**
-- **Causes vs. Treatments**: Discussing multiple causes (R1) ≠ comparative effectiveness about treatments
-- **Adjacency pair logic**: Patient creates communicative opportunity → Provider accepts or declines
-- **R3 vs R4 distinction**: The key difference is level of elaboration - does the provider meaningfully differentiate the options (benefits, risks, tradeoffs) or just list them?
-- **R2 captures**: Both single treatment recommendations AND multiple treatments presented as a combined approach (e.g., "Use the cream and take ibuprofen")
-- **Context columns are independent**: A provider can give elaborated comparative information (R4) while still deferring to in-person, or a non-primary provider could give excellent comparative effectiveness responses
 

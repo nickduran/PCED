@@ -18,16 +18,20 @@
 | **R3** | **YES** | Treatment | 2+ options | Minimal | "We could try metformin or a GLP-1 medication. Let me know which you prefer." / "Options include physical therapy or cortisone injection." / "You can either continue current dose or increase it." |
 | **R4** | **YES** | Treatment | 2+ options | Substantial | "Metformin is usually the first choice - it's well-studied, inexpensive, and effective, though it can cause stomach upset initially. GLP-1 medications are newer, also effective, and may help with weight loss, but they're more expensive and require injections. Given your concerns about cost, I'd suggest starting with metformin." |
 
+#### Note 
+- **R3 vs R4 distinction**: The key difference is level of elaboration - does the provider meaningfully differentiate the options (benefits, risks, tradeoffs) or just list them? See [Coding Examples](examples) if you would like additional clarification.  
+
 ---
 
 ## CONTEXT COLUMNS FOR PROVIDER
 
 After coding the provider response (R0-R4), also code these contextual features for each provider message:
 
-| Context Variable | Code YES if... | Code NO if... |
+| Context Variable | Code YES if... | 
 |-----------------|----------------|---------------|
 | **Non-primary provider?** | Respondent is a medical assistant, nurse, pharmacist, case manager, or someone other than the patient's primary/attending physician | Respondent is the patient's primary care provider or attending physician |
 | **Defers to in-person?** | Provider explicitly suggests or requires meeting in-person or via phone to continue the discussion | Provider addresses the question in the secure message without deferral |
 | **Core response canned?** | Provider's response appears to be templated, generic, or stock language (not personalized to this patient's specific situation) | Provider's response appears personalized or specifically tailored to the patient's situation |
 
-**Note**: These context columns are independent of each other and of the R-codes. For example, a provider could give an R4 (elaborated comparative) response that still defers to in-person (e.g., "Here are your two main options... let's meet to finalize the decision").
+#### Note 
+These context columns are independent of each other and of the R-codes. For example, a provider could give an R4 (elaborated comparative) response that still defers to in-person (e.g., "Here are your two main options... let's meet to finalize the decision").
