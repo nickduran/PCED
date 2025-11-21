@@ -6,19 +6,19 @@
 **Provider**: "You're right that ACE inhibitors like lisinopril can cause cough in some patients. We have two good alternatives: switching to an ARB like losartan, which rarely causes cough but works similarly, or trying amlodipine, a different class that's also effective but may cause some ankle swelling. Given your concern about presentations, losartan would be my recommendation as it has the fewest troublesome side effects."
 
 **Coding**: 
-- P3 (strong implicit - mentions alternative with uncertainty) 
+- P3 (strong opportunity - presents lisinopril vs losartan as alternatives to compare) 
 - R4 (2+ options with substantial elaboration on differences and tradeoffs)
 - Context: Non-primary provider = NO, Defers to in-person = NO, Core response canned = NO
 
 ---
 
-### Example 2: Explicit Opportunity, No Clinical Engagement
+### Example 2: Strong Opportunity, No Clinical Engagement
 **Patient**: "What are the pros and cons of continuing metformin versus adding insulin for my diabetes?"
 
 **Provider**: "Both are reasonable options. Let's discuss this at your next appointment."
 
 **Coding**: 
-- P4 (explicit request for comparison) 
+- P3 (strong opportunity - explicitly presents metformin vs insulin as alternatives and asks for comparison) 
 - R0 (no clinical engagement - defers to in-person)
 - Context: Non-primary provider = NO, Defers to in-person = YES, Core response canned = NO
 
@@ -30,7 +30,7 @@
 **Provider** (Medical Assistant): "Let's schedule physical therapy evaluation. I'll send the referral."
 
 **Coding**: 
-- P2 (moderate implicit - expresses dissatisfaction, asks about alternatives) 
+- P2 (moderate opportunity - mentions Aleve as context, asks about alternatives) 
 - R2 (single treatment solution)
 - Context: Non-primary provider = YES, Defers to in-person = YES, Core response canned = NO
 
@@ -42,7 +42,7 @@
 **Provider**: "Your A1C is higher than we'd like. We should consider adding medication. Options include a DPP-4 inhibitor or a GLP-1 injection. Which would you prefer?"
 
 **Coding**: 
-- P1 (weak implicit - asks what to do) 
+- P1 (weak opportunity - requests guidance but mentions no treatments) 
 - R3 (2+ options with minimal elaboration)
 - Context: Non-primary provider = NO, Defers to in-person = NO, Core response canned = NO
 
@@ -54,10 +54,6 @@
 **Provider**: "Persistent headaches can be caused by tension, migraines, sinus issues, or medication rebound. If it doesn't improve in the next few days, we should see you in person to evaluate further."
 
 **Coding**: 
-- P2 (expresses dissatisfaction with current treatment, asks what else) 
+- P2 (moderate opportunity - mentions Tylenol as context, asks about alternatives) 
 - R1 (discusses multiple causes but no treatment options provided)
 - Context: Non-primary provider = NO, Defers to in-person = YES, Core response canned = NO
-
----
-
-

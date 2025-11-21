@@ -19,23 +19,11 @@ Therefore, we code:
 
 #### Step 2: Code Patient Language (**STAGE 1**)
 Ask: "What opportunity, if any, does the patient create (whether intentional or not) for the provider to engage in comparative effectiveness deliberation **about treatment/management options**?" 
-- There are 5 possible codes (P0-P4) that you will select from a dropdown menu in the spreadsheet. For explanation of each code, see the [Stage 1 Patient Coding Instructions](stage-1-patient-coding)
-
-<!-- - **P0**: No request for guidance on treatment
-- **P1**: General help-seeking without specifics
-- **P2**: Asks about alternatives (open-ended) OR speculates on causes OR expresses dissatisfaction
-- **P3**: Names 2+ specific treatments patient is considering
-- **P4**: Explicitly requests comparison or tradeoffs -->
+- There are 4 possible codes (P0-P3) that you will select from a dropdown menu in the spreadsheet. For explanation of each code, see the [Stage 1 Patient Coding Instructions](stage-1-patient-coding)
 
 #### Step 3: Code Provider Language (**STAGE 2**)
 Ask: "How does the provider respond?" 
 - There are 5 possible codes (R0-R4) that you will select from a dropdown menu in the spreadsheet. For explanation of each code, see the [Stage 2 Provider Coding Instructions](stage-2-provider-coding-context).
-
-<!-- - **R0**: No clinical engagement (acknowledgment/deferral only)
-- **R1**: Discusses multiple causes but no treatment options
-- **R2**: Provides single treatment solution (or multiple as combined approach)
-- **R3**: Presents 2+ treatment options with minimal elaboration
-- **R4**: Presents 2+ treatment options with substantial elaboration -->
 
 #### Step 4: Code Context Columns (ONLY MARK IF YES)
 For each provider message, code:
@@ -51,43 +39,58 @@ When starting to code, you should have a copy of the cheatsheet visibile as a re
 ```
 START
   ↓
-Identify thread and provider/patient messages
+Identify thread and read all patient/provider messages
   ↓
 ═══════════════════════════════════════════════════
 STAGE 1: Patient Opportunity Assessment
 ═══════════════════════════════════════════════════
-  
-Patient Codes (building progressively):
-  
-  P0: WITHOUT requesting guidance on treatment
-  P1: + requests guidance WITHOUT mentioning specific treatment options  
-  P2: + asks about alternatives WITHOUT naming specific treatment options OR speculates on causes OR expresses dissatisfaction
-  P3: + names 2+ specific treatment options WITHOUT requesting comparison
-  P4: + explicitly requests comparison
-  
+
+Step 1: Does patient REQUEST GUIDANCE ON TREATMENT?
+  ├→ NO → P0 (No opportunity)
+  └→ YES → Continue to Step 2
+
+Step 2: Does patient MENTION ANY TREATMENTS by name?
+  ├→ NO → P1 (Weak opportunity)
+  └→ YES → Continue to Step 3
+
+Step 3: How are treatments FRAMED?
+  ├→ As CONTEXT/BACKGROUND → P2 (Moderate opportunity)
+  │   (current meds, what they've tried)
+  │   Examples: "I'm on X but it's not helping"
+  │             "I tried X. What should I do?"
+  │
+  └→ As ALTERNATIVES/CHOICES → P3 (Strong opportunity)
+      (presenting options to compare/choose between)
+      Examples: "Should I do X or Y?"
+                "What are pros/cons of X vs Y?"
+                "What are the alternatives to X?"
+
   ↓
 ═══════════════════════════════════════════════════
 STAGE 2: Provider Response Assessment
 ═══════════════════════════════════════════════════
 
-Provider Codes:
-  
+How does provider respond?
+
   R0: No clinical engagement (acknowledgement only)
-  R1: Discusses causes only
-  R2: Gives treatment solution(s) (non-comparative)
-  R3: Gives 2+ comparative treatment options, minimal detail
-  R4: Gives 2+ comparative treatment options with elaboration
-  
+  R1: Discusses causes only (no treatment recommendations)
+  R2: Gives treatment solution(s) - non-comparative
+      (single treatment OR multiple as combined approach)
+  R3: Gives 2+ comparative options, minimal detail
+      (lists alternatives without elaboration)
+  R4: Gives 2+ comparative options with elaboration
+      (discusses differences, tradeoffs, pros/cons)
+
   ↓
 ═══════════════════════════════════════════════════
 CONTEXT COLUMNS
 ═══════════════════════════════════════════════════
 
-Code YES if true for each:
+Code YES for each provider response:
   • Non-primary provider?
   • Defers to in-person?
   • Core response canned?
-  
+
   ↓
 DONE
 ```

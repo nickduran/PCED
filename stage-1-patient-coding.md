@@ -1,12 +1,11 @@
 ## STAGE 1: Patient Assessment
 **Primary Decision Rule**: Does the patient create an opportunity for the provider to engage in comparative effectiveness deliberation about treatment/management options?
 
-## Quick Reference: Patient Code Meanings
-- **P0 - No Opportunity**: Patient does NOT request guidance on treatment decision (information sharing or acknowledgment only)
-- **P1 - Weak Implicit**: General help-seeking without mentioning specific treatment options
-- **P2 - Moderate Implicit**: Asks about alternatives without naming specific options OR expresses dissatisfaction with current approach OR speculates on multiple causes
-- **P3 - Strong Implicit**: Names 2+ specific treatment options the patient is considering, without requesting comparison
-- **P4 - Explicit**: Directly requests comparison, pros/cons, or tradeoffs between specific treatment options
+#### Quick Reference: Patient Code Meanings
+- **P0 - No Opportunity**: Patient does NOT request guidance on treatment decision (acknowledgment, information sharing, or gratitude only)
+- **P1 - Weak Opportunity**: Requests guidance on treatment but mentions ZERO treatments by name
+- **P2 - Moderate Opportunity**: Requests guidance and mentions treatment(s) as **context** (current medications, what they've tried, background information)
+- **P3 - Strong Opportunity**: Requests guidance and presents treatment(s) as **alternatives/choices** to deliberate or compare between
 
 ## Decision Table
 
@@ -18,12 +17,15 @@
 | **P3** | **YES** | **YES** | — | **YES** | **NO** | "My knee pain isn't improving. Should I continue with physical therapy or consider getting the cortisone injection you mentioned?" / "I'm trying to decide between the cream you prescribed or going straight to the oral medication. What do you think?" |
 | **P4** | **YES** | **YES** | — | **YES** | **YES** | "Can you help me understand the pros and cons of the two diabetes medications we discussed?" / "What are the tradeoffs between continuing physical therapy versus having the surgery?" / "Which medication would work better for my situation - the one with fewer side effects or the one that's more effective?" |
 
+#### Note 
+- **Key:** Focus on treatment/management options. Speculation about causes is fine at any level but doesn't affect coding. If multiple patient messages exist, code the **strongest** opportunity present. See [Coding Examples](examples) if you would like additional clarification.  
+
 ---
 
-## PCED Decision Flowchart
+<!-- ## PCED Decision Flowchart
 
 This flowchart provides a visual representation of the PCED coding decision process:
 
 <div class="flowchart">
     <img src="{{ '/figures/patient_flowchart.svg' | relative_url }}" alt="PCED Patient Decision Flowchart" width="100%">
-</div>
+</div> -->

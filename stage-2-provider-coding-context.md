@@ -34,4 +34,4 @@ After coding the provider response (R0-R4), also code these contextual features 
 | **Core response canned?** | Provider's response appears to be templated, generic, or stock language (not personalized to this patient's specific situation) | Provider's response appears personalized or specifically tailored to the patient's situation |
 
 #### Note 
-These context columns are independent of each other and of the R-codes. For example, a provider could give an R4 (elaborated comparative) response that still defers to in-person (e.g., "Here are your two main options... let's meet to finalize the decision").
+- These context columns are independent of each other and of the R-codes. For example, a provider could give an R4 (elaborated comparative) response that still defers to in-person (e.g., "Here are your two main options... let's meet to finalize the decision").
