@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAGE 1: Patient Opportunity Assessment - Decision Flowchart</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        .legend {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .legend h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .legend-item {
+            display: inline-block;
+            margin-right: 20px;
+            margin-bottom: 10px;
+        }
+        .legend-box {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+            vertical-align: middle;
+            border: 1px solid #999;
+        }
+        .chart-container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            min-height: 800px;
+        }
+        .instructions {
+            background: #e8f4f8;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border-left: 4px solid #0066cc;
+        }
+        .instructions h3 {
+            margin-top: 0;
+            color: #0066cc;
+        }
+        .instructions ul {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>STAGE 1: Patient Opportunity Assessment</h1>
+    <div class="subtitle">Decision Flowchart for PCED Thread-Level Coding</div>
+    
+    <div class="legend">
+        <h3>Code Legend</h3>
+        <div class="legend-item">
+            <span class="legend-box" style="background-color: #ffcccc;"></span>
+            <span>P0: No Opportunity</span>
+        </div>
+        <div class="legend-item">
+            <span class="legend-box" style="background-color: #ffe6cc;"></span>
+            <span>P1: Weak Implicit</span>
+        </div>
+        <div class="legend-item">
+            <span class="legend-box" style="background-color: #ffffcc;"></span>
+            <span>P2: Moderate Implicit</span>
+        </div>
+        <div class="legend-item">
+            <span class="legend-box" style="background-color: #ccffcc;"></span>
+            <span>P3: Strong Implicit</span>
+        </div>
+        <div class="legend-item">
+            <span class="legend-box" style="background-color: #ccffff;"></span>
+            <span>P4: Explicit</span>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <div class="mermaid">
+flowchart TD
+    Start([Read patient message/s in thread])
+    
+    Start --> Q1{Does patient request<br/>guidance on treatment<br/>decision?}
+    
+    Q1 -->|No| P0[P0: No Opportunity<br/>Information sharing only]
+    
+    Q1 -->|Yes| Q2{Does patient mention<br/>specific treatment options<br/>by name?}
+    
+    Q2 -->|No| Q3{Does patient ask about<br/>alternatives or express<br/>dissatisfaction with<br/>current approach?}
+    
+    Q3 -->|No| P1[P1: Weak Implicit<br/>General help-seeking]
+    
+    Q3 -->|Yes| P2[P2: Moderate Implicit<br/>Asks about alternatives<br/>without naming them<br/>OR speculates on causes]
+    
+    Q2 -->|Yes| Q4{Does patient name<br/>2+ specific options?}
+    
+    Q4 -->|No<br/>Only 1 option| P1
+    
+    Q4 -->|Yes| Q5{Does patient explicitly<br/>request comparison,<br/>pros/cons, or tradeoffs?}
+    
+    Q5 -->|No| P3[P3: Strong Implicit<br/>Names 2+ options<br/>without requesting<br/>comparison]
+    
+    Q5 -->|Yes| P4[P4: Explicit<br/>Requests comparison<br/>of options]
+    
+    style P0 fill:#ffcccc
+    style P1 fill:#ffe6cc
+    style P2 fill:#ffffcc
+    style P3 fill:#ccffcc
+    style P4 fill:#ccffff
+    style Start fill:#e6e6e6
+        </div>
+    </div>
+
+    <div class="instructions">
+        <h3>How to Use This Flowchart</h3>
+        <ul>
+            <li><strong>Start at the top</strong> after reading all patient messages in the thread</li>
+            <li><strong>Follow the arrows</strong> based on yes/no answers to each question</li>
+            <li><strong>Remember:</strong> Focus on treatment/management options, not purely diagnostic speculation</li>
+            <li><strong>If multiple patient messages:</strong> Code the strongest opportunity created</li>
+        </ul>
+    </div>
+
+    <script>
+        mermaid.initialize({ 
+            startOnLoad: true,
+            theme: 'default',
+            themeVariables: {
+                fontSize: '18px',
+                fontFamily: 'Arial, sans-serif'
+            },
+            flowchart: {
+                useMaxWidth: true,
+                htmlLabels: true,
+                curve: 'basis',
+                nodeSpacing: 80,
+                rankSpacing: 80,
+                padding: 20
+            }
+        });
+    </script>
+</body>
+</html>
