@@ -1,14 +1,14 @@
-### STAGE 1: Patient Assessment
+## STAGE 1: Patient Assessment
 **Primary Decision Rule**: Does the patient create an opportunity for the provider to engage in comparative effectiveness deliberation about treatment/management options?
 
-#### Quick Reference: Patient Code Meanings
+## Quick Reference: Patient Code Meanings
 - **P0 - No Opportunity**: Patient does NOT request guidance on treatment decision (information sharing or acknowledgment only)
 - **P1 - Weak Implicit**: General help-seeking without mentioning specific treatment options
 - **P2 - Moderate Implicit**: Asks about alternatives without naming specific options OR expresses dissatisfaction with current approach OR speculates on multiple causes
 - **P3 - Strong Implicit**: Names 2+ specific treatment options the patient is considering, without requesting comparison
 - **P4 - Explicit**: Directly requests comparison, pros/cons, or tradeoffs between specific treatment options
 
-#### Decision Table
+## Decision Table
 
 | Code | Requests guidance on treatment? | Mentions specific options? | Asks about alternatives OR dissatisfaction? | Names 2+ specific options? | Explicitly requests comparison? | Example |
 |------|------|------|------|------|------|----------|

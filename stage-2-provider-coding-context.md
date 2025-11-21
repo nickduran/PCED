@@ -1,14 +1,14 @@
-### STAGE 2: Provider Response Assessment
+## STAGE 2: Provider Response Assessment
 **Primary Decision Rule**: How does the provider respond to the patient's opportunity (if one exists)?
 
-#### Quick Reference: Provider Code Meanings
+## Quick Reference: Provider Code Meanings
 - **R0 - No Clinical Engagement**: Provider acknowledges message but does not discuss treatment options or causes (deferral, administrative response, or simple acknowledgment)
 - **R1 - Causes Only**: Provider discusses multiple possible causes or diagnoses without recommending specific treatment options
 - **R2 - Non-Comparative Treatment**: Provider recommends single treatment solution or multiple treatments as a combined approach (no alternatives presented)
 - **R3 - Minimal Comparative**: Provider presents 2+ treatment options with little to no elaboration on differences, benefits, or tradeoffs
 - **R4 - Elaborated Comparative**: Provider presents 2+ treatment options WITH meaningful elaboration on how they differ, their benefits/risks, or tradeoffs; may relate to patient's specific situation
 
-#### Provider Engagement Table
+## Provider Engagement Table
 
 | Code | Discusses clinical content? | Content type | Number of treatment options | Elaboration level | Example |
 |------|------|------|------|------|----------|

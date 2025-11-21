@@ -15,39 +15,38 @@ Comparative effectiveness deliberation requires understanding the **communicativ
 
 ## CODING PROCEDURE
 
-### Step 1: Identify the Exchange Unit
-- Read the **entire thread** or meaningful exchange segment (typically 2-6 messages)
-- Identify patient message(s) that create potential opportunities
-- Identify provider response(s)
+#### Step 1: Identify the Exchange Unit
+- Identify the **entire thread** or meaningful exchange segment (typically 2-6 messages)
 
-### Step 2: Code Patient Opportunity (P0-P4) **STAGE 1**
-Ask: "What opportunity, if any, does the patient create for the provider to engage in comparative effectiveness deliberation **about treatment/management options**?"
+#### Step 2: **STAGE 1** Code Patient Language 
+For more details, see the [Stage 1 Patient Coding Instructions](stage-1-patient-coding).
+Ask: "What opportunity, if any, does the patient create (whether intentional or not) for the provider to engage in comparative effectiveness deliberation **about treatment/management options**?"
 - Focus on treatment/management, not purely diagnostic speculation
 - **P0**: No request for guidance on treatment
 - **P1**: General help-seeking without specifics
 - **P2**: Asks about alternatives (open-ended) OR speculates on causes OR expresses dissatisfaction
 - **P3**: Names 2+ specific treatments patient is considering
 - **P4**: Explicitly requests comparison or tradeoffs
-- Code the **strongest** opportunity present if multiple patient messages exist
 
-### Step 3: STAGE 2: Code Provider Response (R0-R4) **STAGE 2**
+#### Step 3: **STAGE 2** Code Provider Response (R0-R4)
+For more details, see the [Stage 2 Provider Coding Instructions](stage-2-provider-coding-context).
 Ask: "How does the provider respond?"
 - **R0**: No clinical engagement (acknowledgment/deferral only)
 - **R1**: Discusses multiple causes but no treatment options
 - **R2**: Provides single treatment solution (or multiple as combined approach)
 - **R3**: Presents 2+ treatment options with minimal elaboration
 - **R4**: Presents 2+ treatment options with substantial elaboration
-- If provider gives multiple options, evaluate whether they meaningfully elaborate on differences
 
-### Step 4: Code Context Columns (YES/NO for each)
+#### Step 4: Code Context Columns (YES/NO for each)
 For each provider message, code:
 - **Non-primary provider?**: Is the respondent someone other than the patient's primary/attending physician?
 - **Defers to in-person?**: Does the provider explicitly suggest meeting in-person or by phone?
-- **Core response canned?**: Does the response appear templated or generic rather than personalized?
+- **Core response canned?**: Does the response appear templated or generic rather than personalized? 
 
 ---
 
-## DECISION FLOWCHART
+## DECISION FLOWCHART CHEATSHEET
+You may want to have a copy of this cheatsheet visibile when coding as a reference as you begin. 
 
 ```
 START
