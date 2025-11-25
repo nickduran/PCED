@@ -19,7 +19,7 @@
 | **R4** | **YES** | Treatment | 2+ options | Substantial | "Metformin is usually the first choice - it's well-studied, inexpensive, and effective, though it can cause stomach upset initially. GLP-1 medications are newer, also effective, and may help with weight loss, but they're more expensive and require injections. Given your concerns about cost, I'd suggest starting with metformin." |
 
 #### Note 
-- **R3 vs R4 distinction**: The key difference is level of elaboration - does the provider meaningfully differentiate the options (benefits, risks, tradeoffs) or just list them? See [Coding Examples](examples) if you would like additional clarification.  
+- **R3 vs R4 distinction**: The key difference is level of elaboration - does the provider meaningfully differentiate the options (benefits, risks, tradeoffs) or just list them? See [Coding Examples](examples.md) if you would like additional clarification.  
 
 ---
 
