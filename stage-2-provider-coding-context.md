@@ -29,7 +29,7 @@ After coding the provider response (R0-R4), also code these contextual features 
 
 | Context Variable | Code YES if... | 
 |-----------------|----------------|---------------|
-| **Non-primary provider?** | Respondent is a medical assistant, nurse, pharmacist, case manager, or someone other than the patient's primary/attending physician | Respondent is the patient's primary care provider or attending physician |
+| **Non-primary provider?** | Respondent is a medical assistant, nurse, pharmacist, case manager, or someone other than a primary/assisting physician | Respondent is a primary care provider/assisting physician |
 | **Defers to in-person?** | Provider explicitly suggests or requires meeting in-person or via phone to continue the discussion | Provider addresses the question in the secure message without deferral |
 | **Core response canned?** | Provider's response appears to be templated, generic, or stock language (not personalized to this patient's specific situation) | Provider's response appears personalized or specifically tailored to the patient's situation |
 
