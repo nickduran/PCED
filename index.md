@@ -39,33 +39,55 @@ When starting to code, you should have a copy of the cheatsheet visibile as a re
 ```
 START
   ↓
-Identify thread and read all patient/provider messages
+Identify patient message(s) and read thoroughly
   ↓
-═══════════════════════════════════════════════════
-STAGE 1: Patient Opportunity Assessment
-═══════════════════════════════════════════════════
+╔═════════════════════════════════════════════════════════════════════
+║ STAGE 1: Patient Opportunity Assessment
+╚═════════════════════════════════════════════════════════════════════
 
-Step 1: Does patient REQUEST GUIDANCE ON TREATMENT?
+Step 1: Does patient REQUEST GUIDANCE ON TREATMENT/MANAGEMENT?
   ├→ NO → P0 (No opportunity)
+  │       Examples: "Thanks for the refill"
+  │                "I picked up the prescription"
+  │                "The medication is working great!"
+  │
   └→ YES → Continue to Step 2
 
-Step 2: Does patient MENTION ANY TREATMENTS by name?
+Step 2: Does patient MENTION ANY TREATMENTS OR WORK-UPS by name?
   ├→ NO → P1 (Weak opportunity)
+  │       Examples: "What should I do about this pain?"
+  │                "My knee is bothering me. Can you help?"
+  │                "What should we do next to figure this out?"
+  │
   └→ YES → Continue to Step 3
 
-Step 3: How are treatments FRAMED?
+Step 3: How are treatments/work-ups FRAMED?
   ├→ As CONTEXT/BACKGROUND → P2 (Moderate opportunity)
-  │   (current meds, what they've tried)
-  │   Examples: "I'm on X but it's not helping"
-  │             "I tried X. What should I do?"
+  │   (current meds, what they've tried, tests already done)
+  │   Examples: "I'm on Aleve but it's not helping. What else?"
+  │             "I've tried Tylenol. What should I do?"
+  │             "I've had bloodwork already but still have symptoms"
   │
   └→ As ALTERNATIVES/CHOICES → P3 (Strong opportunity)
       (presenting options to compare/choose between)
-      Examples: "Should I do X or Y?"
-                "What are pros/cons of X vs Y?"
-                "What are the alternatives to X?"
+      Examples: "Should I do physical therapy or get the injection?"
+                "What are pros/cons of Aleve vs Ibuprofen?"
+                "Should I also get the RSV vaccine too?"
+                "Should we do an MRI or CT scan?"
 
   ↓
+╔═════════════════════════════════════════════════════════════════════
+║ CONTEXT FLAG FOR PATIENT
+╚═════════════════════════════════════════════════════════════════════
+
+Does the request involve WORK-UP/MANAGEMENT decision?
+(diagnostic testing, referrals, preventive interventions, screening)
+
+  ├→ YES: Mark "Involves work-up/management decision" 
+
+  ↓
+DONE - Proceed to Stage 2 (Provider Response Assessment)
+
 ═══════════════════════════════════════════════════
 STAGE 2: Provider Response Assessment
 ═══════════════════════════════════════════════════
@@ -73,23 +95,24 @@ STAGE 2: Provider Response Assessment
 How does provider respond?
 
   R0: No clinical engagement (acknowledgement only)
-  R1: Discusses causes only (no treatment recommendations)
-  R2: Gives treatment solution(s) - non-comparative
-      (single treatment OR multiple as combined approach)
+  R1: Discusses causes only (no treatment/management recommendations)
+  R2: Gives treatment/management solution(s) - non-comparative
+      (single option OR multiple as combined approach)
   R3: Gives 2+ comparative options, minimal detail
-      (lists alternatives without elaboration)
+      (lists treatment/management alternatives without elaboration)
   R4: Gives 2+ comparative options with elaboration
-      (discusses differences, tradeoffs, pros/cons)
+      (discusses differences, tradeoffs, pros/cons of treatments/work-ups)
 
   ↓
 ═══════════════════════════════════════════════════
-CONTEXT COLUMNS
+CONTEXT FLAGS FOR PROVIDER
 ═══════════════════════════════════════════════════
 
 Code YES for each provider response:
   • Non-primary provider?
   • Defers to in-person?
   • Core response canned?
+  • Involves work-up/management decision?
 
   ↓
 DONE
