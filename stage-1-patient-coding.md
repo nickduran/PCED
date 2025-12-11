@@ -1,4 +1,5 @@
 ## STAGE 1: Patient Assessment
+
 **Primary Decision Rule**: Does the patient create an opportunity for the provider to engage in comparative effectiveness deliberation about **treatment, management, or diagnostic options?**
 
 #### Quick Reference: Patient Code Meanings
