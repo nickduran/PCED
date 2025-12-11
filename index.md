@@ -26,10 +26,16 @@ Ask: "How does the provider respond?"
 - There are 5 possible codes (R0-R4) that you will select from a dropdown menu in the spreadsheet. For explanation of each code, see the [Stage 2 Provider Coding Instructions](stage-2-provider-coding-context).
 
 #### Step 4: Code Context Columns (ONLY MARK IF YES)
-For each provider message, code:
+*For each patient message,* code:
+
+- **Involves work-up/management decision?**: Does the patient's request relate **primarily** to diagnostic testing, referrals, preventive interventions, screening, or management planning steps?
+
+*For each provider message,* code:
+
 - **Non-primary provider?**: Is the respondent someone other than the patient's primary/attending physician?
 - **Defers to in-person?**: Does the provider explicitly suggest meeting in-person or by phone?
 - **Core response canned?**: Does the response appear templated or generic rather than personalized? 
+- **Involves work-up/management decision?** : Does the provider's response relate primarily to diagnostic testing, referrals, preventive interventions, screening, or management planning steps? 
 
 ---
 
