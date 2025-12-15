@@ -3,10 +3,16 @@
 **Primary Decision Rule**: Does the patient create an opportunity for the provider to engage in comparative effectiveness deliberation about **treatment, management, or diagnostic options?**
 
 #### Quick Reference: Patient Code Meanings
-- **P0 - No Opportunity**: Patient does NOT request guidance on treatment/management decision (acknowledgment, information sharing, or gratitude only)
+- **P0 - No Request for Guidance**: Patient does NOT request guidance (acknowledgment, information sharing, or gratitude only)
+- **P1 - Administrative Request**: Patient requests administrative/logistical assistance (refills, orders, forms, appointments) without seeking clinical guidance
+- **P2 - Clinical Guidance, No Treatments Mentioned**: Patient requests clinical guidance on treatment/management but mentions ZERO specific treatments or work-ups by name
+- **P3 - Clinical Guidance, Treatments as Context**: Patient requests clinical guidance and mentions treatment(s) or work-up(s) as **context** (current medications, what they've tried, tests already done)
+- **P4 - Clinical Guidance, Treatments as Alternatives**: Patient requests clinical guidance and presents treatment(s) or work-up(s) as **alternatives/choices** to deliberate or compare between
+
+<!-- - **P0 - No Opportunity**: Patient does NOT request guidance on treatment/management decision (acknowledgment, information sharing, or gratitude only)
 - **P1 - Weak Opportunity**: Requests guidance on treatment/management but mentions ZERO treatments or work-ups by name
 - **P2 - Moderate Opportunity**: Requests guidance and mentions treatment(s) or work-up(s) as **context** (current medications, what they've tried, test already done, background information)
-- **P3 - Strong Opportunity**: Requests guidance and presents treatment(s) or work-up(s) as **alternatives/choices** to deliberate or compare between
+- **P3 - Strong Opportunity**: Requests guidance and presents treatment(s) or work-up(s) as **alternatives/choices** to deliberate or compare between -->
 
 ## Decision Table
 

@@ -43,7 +43,7 @@ Ask: "How does the provider respond?"
 When starting to code, you should have a copy of the cheatsheet visibile as a reference as you begin. Use the cheatsheet once you sufficiently understand the code explanations in [Stage 1 Patient Coding Instructions](stage-1-patient-coding), [Stage 2 Provider Coding Instructions](stage-2-provider-coding-context), and the [Coding Examples](examples). 
 
 ```
-START
+<!-- START
   ↓
 Identify patient message(s) and read thoroughly
   ↓
@@ -79,8 +79,56 @@ Step 3: How are treatments/work-ups FRAMED?
       Examples: "Should I do physical therapy or get the injection?"
                 "What are pros/cons of Aleve vs Ibuprofen?"
                 "Should I also get the RSV vaccine too?"
-                "Should we do an MRI or CT scan?"
+                "Should we do an MRI or CT scan?" -->
 
+START
+  ↓
+Identify patient message(s) and read thoroughly
+  ↓
+╔═════════════════════════════════════════════════════════════════════
+║ STAGE 1: Patient Opportunity Assessment
+╚═════════════════════════════════════════════════════════════════════
+
+Step 1: Does patient REQUEST ANY GUIDANCE?
+  ├→ NO → P0 (No request for guidance)
+  │       Examples: "Thanks for the refill"
+  │                "I picked up the prescription"
+  │                "The medication is working great!"
+  │
+  └→ YES → Continue to Step 2
+
+Step 2: Is the request for CLINICAL guidance or ADMINISTRATIVE assistance?
+  ├→ ADMINISTRATIVE → P1 (Administrative request)
+  │   (refills, orders, forms, appointments - no clinical judgment needed)
+  │   Examples: "Can you resend the lab order?"
+  │             "I need a refill on my medication"
+  │             "The pharmacy needs prior authorization"
+  │
+  └→ CLINICAL → Continue to Step 3
+      (seeking guidance on symptoms, treatments, or management)
+
+Step 3: Does patient MENTION ANY TREATMENTS OR WORK-UPS by name?
+  ├→ NO → P2 (Clinical guidance, no treatments mentioned)
+  │       Examples: "I have stomach pain. What should I do?"
+  │                "My knee is bothering me. Can you help?"
+  │                "What should we do next to figure this out?"
+  │
+  └→ YES → Continue to Step 4
+
+Step 4: How are treatments/work-ups FRAMED?
+  ├→ As CONTEXT/BACKGROUND → P3 (Clinical guidance, treatments as context)
+  │   (current meds, what they've tried, tests already done)
+  │   Examples: "I'm on Aleve but it's not helping. What else?"
+  │             "I've tried Tylenol. What should I do?"
+  │             "I've had bloodwork but still have symptoms"
+  │
+  └→ As ALTERNATIVES/CHOICES → P4 (Clinical guidance, treatments as alternatives)
+      (presenting options to compare/choose between)
+      Examples: "Should I do physical therapy or get the injection?"
+                "What are pros/cons of Aleve vs Ibuprofen?"
+                "Should I also get the RSV vaccine too?"
+                "Should we do an MRI or CT scan?"
+                
   ↓
 ╔═════════════════════════════════════════════════════════════════════
 ║ CONTEXT FLAG FOR PATIENT
