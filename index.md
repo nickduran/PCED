@@ -43,7 +43,7 @@ Ask: "How does the provider respond?"
 When starting to code, you should have a copy of the cheatsheet visibile as a reference as you begin. Use the cheatsheet once you sufficiently understand the code explanations in [Stage 1 Patient Coding Instructions](stage-1-patient-coding), [Stage 2 Provider Coding Instructions](stage-2-provider-coding-context), and the [Coding Examples](examples). 
 
 ```
-<!-- START
+START
   ↓
 Identify patient message(s) and read thoroughly
   ↓
@@ -79,9 +79,51 @@ Step 3: How are treatments/work-ups FRAMED?
       Examples: "Should I do physical therapy or get the injection?"
                 "What are pros/cons of Aleve vs Ibuprofen?"
                 "Should I also get the RSV vaccine too?"
-                "Should we do an MRI or CT scan?" -->
+                "Should we do an MRI or CT scan?" 
+  ↓
+╔═════════════════════════════════════════════════════════════════════
+║ CONTEXT FLAG FOR PATIENT
+╚═════════════════════════════════════════════════════════════════════
 
-START
+Does the request involve WORK-UP/MANAGEMENT decision?
+(diagnostic testing, referrals, preventive interventions, screening)
+
+  ├→ YES: Mark "Involves work-up/management decision" 
+
+  ↓
+DONE - Proceed to Stage 2 (Provider Response Assessment)
+
+═══════════════════════════════════════════════════
+STAGE 2: Provider Response Assessment
+═══════════════════════════════════════════════════
+
+How does provider respond?
+
+  R0: No clinical engagement (acknowledgement only)
+  R1: Discusses causes only (no treatment/management recommendations)
+  R2: Gives treatment/management solution(s) - non-comparative
+      (single option OR multiple as combined approach)
+  R3: Gives 2+ comparative options, minimal detail
+      (lists treatment/management alternatives without elaboration)
+  R4: Gives 2+ comparative options with elaboration
+      (discusses differences, tradeoffs, pros/cons of treatments/work-ups)
+
+  ↓
+═══════════════════════════════════════════════════
+CONTEXT FLAGS FOR PROVIDER
+═══════════════════════════════════════════════════
+
+Code YES for each provider response:
+  • Non-primary provider?
+  • Defers to in-person?
+  • Core response canned?
+  • Involves work-up/management decision?
+
+  ↓
+DONE
+```
+
+<!-- START
   ↓
 Identify patient message(s) and read thoroughly
   ↓
@@ -127,47 +169,4 @@ Step 4: How are treatments/work-ups FRAMED?
       Examples: "Should I do physical therapy or get the injection?"
                 "What are pros/cons of Aleve vs Ibuprofen?"
                 "Should I also get the RSV vaccine too?"
-                "Should we do an MRI or CT scan?"
-                
-  ↓
-╔═════════════════════════════════════════════════════════════════════
-║ CONTEXT FLAG FOR PATIENT
-╚═════════════════════════════════════════════════════════════════════
-
-Does the request involve WORK-UP/MANAGEMENT decision?
-(diagnostic testing, referrals, preventive interventions, screening)
-
-  ├→ YES: Mark "Involves work-up/management decision" 
-
-  ↓
-DONE - Proceed to Stage 2 (Provider Response Assessment)
-
-═══════════════════════════════════════════════════
-STAGE 2: Provider Response Assessment
-═══════════════════════════════════════════════════
-
-How does provider respond?
-
-  R0: No clinical engagement (acknowledgement only)
-  R1: Discusses causes only (no treatment/management recommendations)
-  R2: Gives treatment/management solution(s) - non-comparative
-      (single option OR multiple as combined approach)
-  R3: Gives 2+ comparative options, minimal detail
-      (lists treatment/management alternatives without elaboration)
-  R4: Gives 2+ comparative options with elaboration
-      (discusses differences, tradeoffs, pros/cons of treatments/work-ups)
-
-  ↓
-═══════════════════════════════════════════════════
-CONTEXT FLAGS FOR PROVIDER
-═══════════════════════════════════════════════════
-
-Code YES for each provider response:
-  • Non-primary provider?
-  • Defers to in-person?
-  • Core response canned?
-  • Involves work-up/management decision?
-
-  ↓
-DONE
-```
+                "Should we do an MRI or CT scan?" -->
