@@ -2,7 +2,7 @@
 **Primary Decision Rule**: How does the provider respond to the patient's request (if one exists) for guidance on **treatment/management or work-up/diagnostic options?**. Key focus is on whether the provider engages in comparative effectiveness deliberation by discussing multiple options, and if so, how elaborately they do so.
 
 ## Quick Reference: Provider Code Meanings
-- **R0 - No Clinical Engagement**: Acknowledges message but does not discuss treatment/diagnostic options or causes (deferral, administrative response, or simple acknowledgment)
+- **R0 - Unrelated/other**: Acknowledges message but does not discuss treatment/diagnostic options or causes (deferral, administrative response, or simple acknowledgment)
 - **R1 - Causes Only**: Discusses multiple possible causes or diagnoses without recommending specific treatment/management or work-up/diagnostic options.
 - **R2 - Non-Comparative Response**: Recommends or provides solution(s) without comparative deliberation (no alternatives presented).  
 - **R3 - Minimal Comparative**: Recommends or provides solution(s) with some alternatives/options presented but WITHOUT meaningful elaboration on differences, benefits, or tradeoffs
@@ -10,13 +10,13 @@
 
 ## Provider Engagement Table
 
-| Code | Discusses clinical content? | Content type | Options presented? | Elaboration level | Example |
-|------|------|------|------|------|----------|
-| **R0** | **NO** | — | — | — | "Thank you for the message. I've noted this in your chart." / "I received your message. Let's discuss this at your next appointment." / "Okay, I'll send that referral." |
-| **R1** | **YES** | Causes/diagnosis | — | — | "This could be caused by a viral infection, bacterial infection, or allergic reaction. Let me know if symptoms worsen and we can run tests." / "The pain might be from muscle strain, arthritis, or nerve compression." |
-| **R2** | **YES** | Recommendations/solutions | No | — | "I recommend starting physical therapy twice a week." / "Let's try increasing your dosage to 20mg daily." / "You should use the steroid cream and ibuprofen together." / "Let's get your A1C checked and schedule a cardiology consult." |
-| **R3** | **YES** | Recommendations/solutions | Yes | Minimal | "We could try metformin or a GLP-1 medication. Let me know which you prefer." / "Options include physical therapy or cortisone injection." / "You can either continue current dose or increase it." / "We could do an MRI or CT scan. Which would you prefer?" |
-| **R4** | **YES** | Recommendations/solutions | Yes | Substantial | "Metformin is usually the first choice - it's well-studied, inexpensive, and effective, though it can cause stomach upset initially. GLP-1 medications are newer, also effective, and may help with weight loss, but they're more expensive and require injections. Given your concerns about cost, I'd suggest starting with metformin." / "An MRI provides more detailed soft tissue images and doesn't use radiation, but it's more expensive and takes longer. A CT scan is faster and better for bone issues, but involves radiation exposure. Given your symptoms pointing to ligament damage, I'd recommend the MRI." |
+| Code | Content type | Options presented? | Elaboration level | Example |
+|------|------|------|------|----------|
+| **R0** | Other | — | — | "Thank you for the message. I've noted this in your chart." / "I received your message. Let's discuss this at your next appointment." / "Okay, I'll send that referral." |
+| **R1** | Causes/diagnosis only | — | — | "This could be caused by a viral infection, bacterial infection, or allergic reaction. Let me know if symptoms worsen and we can run tests." / "The pain might be from muscle strain, arthritis, or nerve compression." |
+| **R2** | Recommendations/solutions | No | — | "I recommend starting physical therapy twice a week." / "Let's try increasing your dosage to 20mg daily." / "You should use the steroid cream and ibuprofen together." / "Let's get your A1C checked and schedule a cardiology consult." |
+| **R3** | Recommendations/solutions | Yes | Minimal | "We could try metformin or a GLP-1 medication. Let me know which you prefer." / "Options include physical therapy or cortisone injection." / "You can either continue current dose or increase it." / "We could do an MRI or CT scan. Which would you prefer?" |
+| **R4** | Recommendations/solutions | Yes | Substantial | "Metformin is usually the first choice - it's well-studied, inexpensive, and effective, though it can cause stomach upset initially. GLP-1 medications are newer, also effective, and may help with weight loss, but they're more expensive and require injections. Given your concerns about cost, I'd suggest starting with metformin." / "An MRI provides more detailed soft tissue images and doesn't use radiation, but it's more expensive and takes longer. A CT scan is faster and better for bone issues, but involves radiation exposure. Given your symptoms pointing to ligament damage, I'd recommend the MRI." |
 
 #### Note 
 - **R3 vs R4 distinction**: The key difference is level of elaboration - does the provider meaningfully differentiate the options (benefits, risks, tradeoffs) or just list them? This applies whether discussing treatment/management or work-up/diagnostic decisions.
