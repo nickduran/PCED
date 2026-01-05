@@ -1,6 +1,6 @@
 ## STAGE 1: Patient Assessment
 
-**Primary Decision Rule**: Does the patient create an opportunity for the provider to engage in comparative effectiveness deliberation about **treatment/management or work-up/diagnostic options?**. Key focus is on whether the patient is making a request of any kind that might open the door for such deliberation, specifically.  
+**Primary Decision Rule**: Does the patient create an opportunity for the provider to engage in comparative effectiveness deliberation about **treatment/management or work-up/diagnostic options?** Key focus is on whether the patient is making a request of any kind that might open the door for such deliberation, specifically.  
 
 #### Quick Reference: Patient Code Meanings
 - **P0 - No Opportunity**: Does NOT make a request or is NOT seeking guidance associated with target topics (acknowledgment, information sharing, or gratitude only)
