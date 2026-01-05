@@ -12,7 +12,7 @@
 
 | Code | Content type | Options presented? | Elaboration level | Example |
 |------|------|------|------|----------|
-| **R0** | Other | — | — | "Thank you for the message. I've noted this in your chart." / "I received your message. Let's discuss this at your next appointment." / "Okay, I'll send that referral." |
+| **R0** | Unrelated/Other | — | — | "Thank you for the message. I've noted this in your chart." / "I received your message. Let's discuss this at your next appointment." / "Okay, I'll send that referral." |
 | **R1** | Causes/diagnosis only | — | — | "This could be caused by a viral infection, bacterial infection, or allergic reaction. Let me know if symptoms worsen and we can run tests." / "The pain might be from muscle strain, arthritis, or nerve compression." |
 | **R2** | Recommendations/solutions | No | — | "I recommend starting physical therapy twice a week." / "Let's try increasing your dosage to 20mg daily." / "You should use the steroid cream and ibuprofen together." / "Let's get your A1C checked and schedule a cardiology consult." |
 | **R3** | Recommendations/solutions | Yes | Minimal | "We could try metformin or a GLP-1 medication. Let me know which you prefer." / "Options include physical therapy or cortisone injection." / "You can either continue current dose or increase it." / "We could do an MRI or CT scan. Which would you prefer?" |
@@ -33,12 +33,14 @@ After coding the provider response (R0-R4), also code these contextual features 
 |-----------------|----------------|
 | **Non-primary provider?** | Respondent is a medical assistant, nurse, pharmacist, case manager, or someone other than a primary/assisting physician | 
 | **Defers to in-person?** | Provider explicitly suggests or requires meeting in-person or via phone to continue the discussion | 
-| **Core response canned?** | Provider's response appears to be templated, generic, or stock language (not personalized to this patient's specific situation) | 
+| **Core response canned?** | Provider's response appears to be templated, generic, or stock language (not personalized to this patient's specific situation) |
+
 <!-- | **Involves work-up/management decision?** | Provider's response relates primarily to diagnostic testing, referrals, preventive interventions, screening, or management planning steps (rather than therapeutic treatment of an existing condition) | -->
 
 #### Note 
 - These context columns are independent of each other and of the R-codes. For example:
   - A provider could give an R4 (elaborated comparative) response that still defers to in-person (e.g., "Here are your two main options... let's meet to finalize the decision")
-  <!-- - A provider could give an R3 (minimal comparative) response about work-ups (e.g., "We could do an MRI or CT scan") where work-up/management = YES
+  
+<!-- - A provider could give an R3 (minimal comparative) response about work-ups (e.g., "We could do an MRI or CT scan") where work-up/management = YES
   - A provider could give an R2 (non-comparative) response about treatments (e.g., "Start taking ibuprofen twice daily") where work-up/management = NO -->
 <!-- - The work-up/management context flag helps identify whether the provider's comparative effectiveness deliberation (or lack thereof) involves therapeutic decision-making versus diagnostic/preventive/management planning. This allows analysis of whether providers engage differently with treatment opportunities versus work-up opportunities. -->
