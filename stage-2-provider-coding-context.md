@@ -3,7 +3,7 @@
 
 ## Quick Reference: Provider Code Meanings
 - **R0 - Unrelated/other**: Acknowledges message but does not discuss treatment/diagnostic options or causes (deferral, administrative response, or simple acknowledgment)
-- **R1 - Causes Only**: Discusses multiple possible causes or diagnoses without recommending specific treatment/management or work-up/diagnostic options.
+- **R1 - Symptoms/causes Only**: Discusses symptoms/causes without recommending specific treatment/management or work-up/diagnostic options.
 - **R2 - Non-Comparative Response**: Recommends or provides solution(s) without comparative deliberation (no alternatives presented).  
 - **R3 - Minimal Comparative**: Recommends or provides solution(s) with some alternatives/options presented but WITHOUT meaningful elaboration on differences, benefits, or tradeoffs
 - **R4 - Elaborated Comparative**: Recommends or provides solution(s) WITH meaningful elaboration on how they differ, their benefits/risks, or tradeoffs; may relate to patient's specific situation
@@ -13,7 +13,7 @@
 | Code | Content type | Options presented? | Elaboration level | Example |
 |------|------|------|------|----------|
 | **R0** | Unrelated/Other | — | — | "Thank you for the message. I've noted this in your chart." / "I received your message. Let's discuss this at your next appointment." / "Okay, I'll send that referral." |
-| **R1** | Causes/diagnosis only | — | — | "This could be caused by a viral infection, bacterial infection, or allergic reaction. Let me know if symptoms worsen and we can run tests." / "The pain might be from muscle strain, arthritis, or nerve compression." |
+| **R1** | Symptoms/causes only | — | — | "This could be caused by a viral infection, bacterial infection, or allergic reaction. Let me know if symptoms worsen and we can run tests." / "The pain might be from muscle strain, arthritis, or nerve compression." |
 | **R2** | Recommendations/solutions | No | — | "I recommend starting physical therapy twice a week." / "Let's try increasing your dosage to 20mg daily." / "You should use the steroid cream and ibuprofen together." / "Let's get your A1C checked and schedule a cardiology consult." |
 | **R3** | Recommendations/solutions | Yes | Minimal | "We could try metformin or a GLP-1 medication. Let me know which you prefer." / "Options include physical therapy or cortisone injection." / "You can either continue current dose or increase it." / "We could do an MRI or CT scan. Which would you prefer?" |
 | **R4** | Recommendations/solutions | Yes | Substantial | "Metformin is usually the first choice - it's well-studied, inexpensive, and effective, though it can cause stomach upset initially. GLP-1 medications are newer, also effective, and may help with weight loss, but they're more expensive and require injections. Given your concerns about cost, I'd suggest starting with metformin." / "An MRI provides more detailed soft tissue images and doesn't use radiation, but it's more expensive and takes longer. A CT scan is faster and better for bone issues, but involves radiation exposure. Given your symptoms pointing to ligament damage, I'd recommend the MRI." |
