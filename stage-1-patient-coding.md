@@ -41,7 +41,7 @@ After coding the patient message (P0-P3), also code this contextual feature:
 - "Should we do an MRI or CT scan?" (diagnostic imaging choice)
 - "Do I need to get tested for diabetes?" (screening decision)
 
-**Treatment/managment (Code Left BLANK):**
+**Treatment/management (Code Left BLANK):**
 - "Should I continue physical therapy or get the cortisone injection?" (therapeutic treatment alternatives)
 - "What are the pros and cons of Aleve versus Ibuprofen?" (medication treatment comparison)
 - "I'm on Aleve but it's not helping. What else can I try?" (seeking alternative treatment)
